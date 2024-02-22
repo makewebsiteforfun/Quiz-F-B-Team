@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+h1 {
+    color:#1f81bf;
+}
+#quiz-container {
+  
+    background-image: url('./Feature-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px; /* Rounded corners for the quiz container */
+    padding: 300px; /* Padding to give space between content and edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+}
+#question {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    color: black;
+}
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+#score {
+    font-size: 1.2em;
+    margin-top: 20px;
+    
+}
+
+#scoreboard {
+    color: firebrick;
+}
+h3{
+    color:red
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    #quiz-container {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #quiz-container {
+        padding: 20px;
+    }
+
+    #question {
+        font-size: 1.2em;
+    }
+}

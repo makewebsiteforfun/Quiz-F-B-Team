@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Trivia Quiz</title>
+   <link  rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Food Trivia Quiz</h1>
+        <input type="text" id="playerNameInput" placeholder="Enter your name">
+        <button id="startQuizButton">Start Quiz</button>
+        <div id="question" style="display:none;"></div>
+        <div id="options" style="display:none;"></div>
+        <div id="score" style="display:none;">Score: <span id="score-value">0</span></div>
+        <div id="scoreboard" style="display:none;">
+            <h2>Scoreboard</h2>
+            <ul id="score-list"></ul>
+        </div>
+    </div>
+    <h3> Each question has 10 points and you have 10 questions the more you answer right the more higher score you get good luck</h3>
+<script src="play.js"></script>
+
+
+</body>
+</html>
